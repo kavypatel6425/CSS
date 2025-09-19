@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Sibling Selector</title>
+
+    <style>
+        h1+p {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>8. Adjacent Sibling Selector</h4>
+    <p>Targets the first element that comes immediately after another</p>
+
+
+    <h4>example</h4>
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quia?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quia?</p>
+
+
+    <p>h1 + p {
+        color: red;
+        }</p>
+
+    <p>Selects the first <p> right after an <h1>.</p>
+
+</body>
+
+</html>
